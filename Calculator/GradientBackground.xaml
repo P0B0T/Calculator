@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowBackground" TargetType="Window">
+
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush>
+
+                    <GradientStop Offset="0" Color="#1E0236" />
+                    <GradientStop Offset="0.3" Color="#252E55" />
+                    <GradientStop Offset="1" Color="#6D45F7" />
+
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <Style x:Key="MenuItemBackground" TargetType="MenuItem">
+
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush>
+
+                    <GradientStop Offset="0" Color="#1E0236" />
+                    <GradientStop Offset="0.3" Color="#252E55" />
+                    <GradientStop Offset="1" Color="#6D45F7" />
+
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+</ResourceDictionary>
